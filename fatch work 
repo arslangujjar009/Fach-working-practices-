@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.15.14/index.js" integrity="sha512-RdkbzvazPmA/7wluniHv6qMMq0NCPYtamJEfmNqNmy6adlSp9HlESpu9jcTKSWjV56ZKvuQvqIAjxnbXWFYTHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>crypto</h2>
+        <form >
+<div class="amount" >
+<p>enter money</p>
+<input value="199"type="text/">
+<div class="dropdown">
+    <div class="from">
+        
+        <p>to</p>
+    <div class="select container">
+        <select name="pkr"></select>
+<option value="usdt">usdt</option>
+<option value="inr">inr</option>
+<option value="eur">eur</option>
+<option value="aud">aud</option>
+</select>
+</div>
+</div>
+<div class="from"> <div class="from">
+        <p>to</p>
+    <div class="select container">
+        <select name="pkr"></select>
+<option value="usdt">usdt</option>
+<option value="inr">inr</option>
+<option value="eur">eur</option>
+<option value="aud">aud</option>
+</select>
+</div></div>
+</div>
+<div class="msg">1usdt=290pkr</div>
+<button>get exchange rate</button>
+ </form>
+</div>
+</body>
+</html>
